@@ -26,6 +26,16 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  //Title
+  // Description of project
+  // Table of Contents, which will include:
+
+  // Installation
+  // Usage - include website link
+  // license: MIT, Apache 2.0, GPL 3.0 BSD3, none
+  // Contributing
+  // Tests
+  // Questions - include contact information and github link
 `;
 }
 
