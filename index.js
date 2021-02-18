@@ -9,6 +9,32 @@ const questions = () => {
   return inquirer.prompt([
     {
       type: 'input',
+      name: 'contactInfo',
+      message: 'Enter your contact information: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your contact information');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'Enter your GitHub Username (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your GitHub username');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
       name: 'title',
       message: 'Enter your project name (Required)',
       validate: nameInput => {
@@ -46,52 +72,18 @@ const questions = () => {
     },
     {
       type: 'input',
+      name: 'usage',
+      message: '',
+    },
+    {
+      type: 'input',
       name: 'install',
       message: 'Are there any installation requirements?'
     },
     {
-      type: 'confirm',
-      name: 'confirmTest',
-      message: 'Are there any tests?',
-      default: true
-    },
-    {
       type: 'input',
       name: 'test',
-      message: 'Describe the Test instructions',
-      when: ({ confirmTest }) => {
-        if (confirmTest) {
-          return true;
-        } else {
-          return false;
-        }
-      }
-    },
-    {
-      type: 'input',
-      name: 'name',
-      message: 'What is your name? (Required)',
-      validate: nameInput => {
-        if (nameInput) {
-          return true;
-        } else {
-          console.log('Please enter your name');
-          return false;
-        }
-      }
-    },
-    {
-      type: 'input',
-      name: 'github',
-      message: 'Enter your GitHub Username (Required)',
-      validate: nameInput => {
-        if (nameInput) {
-          return true;
-        } else {
-          console.log('Please enter your GitHub username');
-          return false;
-        }
-      }
+      message: '',
     },
   ]);
 };
