@@ -34,6 +34,13 @@ Deployed Link: [Deployed Link](https://cerafinn.github.io/README-generator)
 
 Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
 
+Video demo:
+![README](/assets/images/README.gif)
+
+
+Output example:
+![README Output](/assets/images/README-generator.png)
+
 <br />
 
 ## Contributing
