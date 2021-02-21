@@ -1,14 +1,15 @@
-# README-generator
-Description here
+# README generator
 
-Licsense badge here
+## Description
+README.md generator designed to create a markdown file for a project by taking input from a user.
 
- Table of Contents |
+
+
+Table of Contents |
 -------------------|
 [Installation](#Installation)
 [Usage](#Usage)
 [Contributing](#Contributing)
-[License](#License)
 [Tests](#Tests)
 [Questions](#Questions)
 |
@@ -17,24 +18,39 @@ Licsense badge here
 
 ## Installation
 
+In order to run the project locally, ensure that dependencies are installed by running:
+
+npm install
+
 <br />
 
 ## Usage
 
-  Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
+The README generator is designed using Node and the modules Inquirer, File System and Path, along with an exported module. The aim of the project is to create a template for a README file given input from the user running the command `node index` in the terminal. The README.md that is generated is saved to the dist folder so as to not create confusion between the generated README.md and this application's  README.md
+
+You can find the deployed link and the repository link below:
+
+Deployed Link: [Deployed Link](https://cerafinn.github.io/README-generator)
+
+Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
 
 <br />
 
 ## Contributing
 
-<br />
-
-## License
+If interested in contributing to the project, feel free to reach out. Contact information can be found in the [Questions](#Questions) section.
 
 <br />
+
+
 
 ## Tests
+
+N/A
 
 <br />
 
 ## Questions
+
+If you have any questions or issues, feel free to reach out through andaleeb.farooq@gmail.com.
+You can also find more of my work on Github at [github link](https://github.com/cerafinn)

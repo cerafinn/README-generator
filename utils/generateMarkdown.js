@@ -9,7 +9,8 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license !== "None") {
-    return `[License](#License)`
+    return `
+[License](#License)`
   }
   return ''
 }
@@ -38,8 +39,7 @@ Table of Contents |
 -------------------|
 [Installation](#Installation)
 [Usage](#Usage)
-[Contributing](#Contributing)
-${renderLicenseLink(data.license)}
+[Contributing](#Contributing)${renderLicenseLink(data.license)}
 [Tests](#Tests)
 [Questions](#Questions)
 |
@@ -61,6 +61,7 @@ ${data.usage}
 You can find the deployed link and the repository link below:
 
 Deployed Link: [Deployed Link](https://${data.github}.github.io/${data.repoName})
+
 Repo Link: [Repo Link](https://github.com/${data.github}/${data.repoName})
 
 <br />
