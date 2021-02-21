@@ -28,9 +28,7 @@ npm install
 
 The README generator is designed using Node and the modules Inquirer, File System and Path, along with an exported module. The aim of the project is to create a template for a README file given input from the user running the command `node index` in the terminal. The README.md that is generated is saved to the dist folder so as to not create confusion between the generated README.md and this application's  README.md
 
-You can find the deployed link and the repository link below:
-
-Deployed Link: [Deployed Link](https://cerafinn.github.io/README-generator)
+You can find the repository link below:
 
 Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
 
