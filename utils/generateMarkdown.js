@@ -25,6 +25,15 @@ The license for this project is ${license}. For full details, refer to the licen
   return ''
 }
 
+function renderTechnologies(technologies) {
+  if (technologies !== "") {
+    var techArray = technologies.split(', ')
+
+    return `* ${techArray.map(i => i).join(`
+* `)}`
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
@@ -39,10 +48,11 @@ Table of Contents |
 -------------------|
 [Installation](#Installation)
 [Usage](#Usage)
+[Technologies](#Technologies)
+[Screenshots](#Screenshots)
 [Contributing](#Contributing)${renderLicenseLink(data.license)}
 [Tests](#Tests)
 [Questions](#Questions)
-|
 
 <br />
 
@@ -65,6 +75,16 @@ Deployed Link: [Deployed Link](https://${data.github}.github.io/${data.repoName}
 Repo Link: [Repo Link](https://github.com/${data.github}/${data.repoName})
 
 <br />
+
+## Technologies
+
+${renderTechnologies(data.technologies)}
+
+<br />
+
+## Screenshots
+
+![IMG]()
 
 ## Contributing
 
