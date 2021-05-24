@@ -1,9 +1,9 @@
-# asd
+# Portfolio
 
 ## Description
-asd
+A portfolio with deployed works included.
 
-![GitHub license badge](https://img.shields.io/badge/license-MIT-orange)
+
 
 Table of Contents |
 -------------------|
@@ -12,7 +12,6 @@ Table of Contents |
 [Technologies](#Technologies)
 [Screenshots](#Screenshots)
 [Contributing](#Contributing)
-[License](#License)
 [Tests](#Tests)
 [Questions](#Questions)
 
@@ -22,19 +21,19 @@ Table of Contents |
 
 In order to run the project locally, ensure that dependencies are installed by running:
 
-asd
+none
 
 <br />
 
 ## Usage
 
-asd
+The project is a basic portfolio created with HTML and CSS. The site includes a short bio, an picture along with a display of deployed works.
 
 You can find the deployed link and the repository link below:
 
-Deployed Link: [Deployed Link](https://asd.github.io/asd)
+Deployed Link: [Deployed Link](https://cerafinn.github.io/portfolio)
 
-Repo Link: [Repo Link](https://github.com/asd/asd)
+Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
 
 <br />
 
@@ -42,10 +41,6 @@ Repo Link: [Repo Link](https://github.com/asd/asd)
 
 * HTML
 * CSS
-* JavaScript
-* File System
-* Nodejs
-* Path
 
 <br />
 
@@ -55,21 +50,19 @@ Repo Link: [Repo Link](https://github.com/asd/asd)
 
 ## Contributing
 
-asd
+If interested in contributing to the project, feel free to reach out. Contact information can be found in the [Questions](#Questions) section.
 
 <br />
 
-##  License
 
-The license for this project is MIT. For full details, refer to the license file within the repository.
 
 ## Tests
 
-asd
+none
 
 <br />
 
 ## Questions
 
-If you have any questions or issues, feel free to reach out through asd.
-You can also find more of my work on Github at [github link](https://github.com/asd)
+If you have any questions or issues, feel free to reach out through andaleeb.farooq@gmail.com.
+You can also find more of my work on Github at [github link](https://github.com/cerafinn)

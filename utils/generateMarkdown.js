@@ -53,6 +53,7 @@ Table of Contents |
 [Screenshots](#Screenshots)
 [Contributing](#Contributing)${renderLicenseLink(data.license)}
 [Tests](#Tests)
+[Author](#Author)
 [Questions](#Questions)
 
 <br />
@@ -101,10 +102,16 @@ ${data.test}
 
 <br />
 
+## Author
+
+${data.author}: [:octocat:](https://github.com/${data.github})
+
+<br />
+
 ## Questions
 
-If you have any questions or issues, feel free to reach out through ${data.contactInfo}.
-You can also find more of my work on Github at [github link](https://github.com/${data.github})
+If you have any questions or issues, feel free to reach out at: ${data.contactInfo}.
+You can also find more of my work on Github at [github link](https://github.com/${data.github}).
 `;
 }
 

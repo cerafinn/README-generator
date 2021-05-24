@@ -59,6 +59,8 @@ Output example: <br />
 
 Andaleeb Farooq: [:octocat:](https://github.com/cerafinn)
 
+<br />
+
 ## Contributing
 
 If interested in contributing to the project, feel free to reach out. Contact information can be found in the [Questions](#Questions) section.
