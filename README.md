@@ -11,6 +11,7 @@ Table of Contents |
 [Usage](#Usage)
 [Technologies](#Technologies)
 [Screenshots](#Screenshots)
+[Author](#Author)
 [Contributing](#Contributing)
 [Questions](#Questions)
 
@@ -47,12 +48,16 @@ Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
 
 ## Screenshots
 
-![README](./assets/images/README-generator.png)
+![README](/assets/images/README.gif)
 
-Output example:
-![README Output](./assets/images/README-generator.png)
+Output example: <br />
+![README Output](/assets/images/README-generator.PNG)
 
 <br />
+
+## Author
+
+Andaleeb Farooq: [:octocat:](https://github.com/cerafinn)
 
 ## Contributing
 
