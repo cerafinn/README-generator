@@ -1,10 +1,10 @@
-// Include packages needed for this application
+// packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// Create an array of questions for user input
+// array of questions for user input
 const questions = [
   {
     type: 'input',
@@ -64,16 +64,15 @@ const questions = [
   },
 ];
 
-// Create a function to write README file
+// Writes README file
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
-// Create a function to initialize app
+// Initialize app
 function init() {
   return inquirer.prompt(questions)
     .then(answers => {writeToFile("./dist/generatedREADME.md", generateMarkdown(answers))})
 }
 
-// Function call to initialize app
 init();

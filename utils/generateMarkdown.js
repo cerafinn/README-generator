@@ -25,6 +25,7 @@ The license for this project is ${license}. For full details, refer to the licen
   return ''
 }
 
+// Renders a list of technologies used in the project
 function renderTechnologies(technologies) {
   if (technologies !== "") {
     var techArray = technologies.split(', ')
@@ -34,7 +35,7 @@ function renderTechnologies(technologies) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate markdown for README, which is created in the dist folder
 function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
