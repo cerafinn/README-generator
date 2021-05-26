@@ -66,6 +66,7 @@ const questions = [
     type: 'input',
     name: 'contribute',
     message: 'How to contribute to the project?',
+    default: 'If interested in contributing to the project, feel free to reach out. Contact information can be found in the Questions section.'
   },
 ];
 

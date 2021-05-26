@@ -1,7 +1,7 @@
-# Portfolio
+# Run Buddy
 
 ## Description
-A portfolio with deployed works included.
+Website that offers fitness training services
 
 
 
@@ -13,6 +13,7 @@ Table of Contents |
 [Screenshots](#Screenshots)
 [Contributing](#Contributing)
 [Tests](#Tests)
+[Author](#Author)
 [Questions](#Questions)
 
 <br />
@@ -27,13 +28,13 @@ none
 
 ## Usage
 
-The project is a basic portfolio created with HTML and CSS. The site includes a short bio, an picture along with a display of deployed works.
+Website built with HTML and CSS. The application allows for users to view information about the fitness training services, reach out to set up consultation, view trainer profiles and well as contact information. The website is mobile responsive and allows for users to also view the privacy policy that is linked at the bottom of the page.
 
 You can find the deployed link and the repository link below:
 
-Deployed Link: [Deployed Link](https://cerafinn.github.io/portfolio)
+Deployed Link: [Deployed Link](https://cerafinn.github.io/run-buddy)
 
-Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
+Repo Link: [Repo Link](https://github.com/cerafinn/run-buddy)
 
 <br />
 
@@ -50,7 +51,7 @@ Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
 
 ## Contributing
 
-If interested in contributing to the project, feel free to reach out. Contact information can be found in the [Questions](#Questions) section.
+If interested in contributing to the project, feel free to reach out. Contact information can be found in the Questions section.
 
 <br />
 
@@ -62,7 +63,13 @@ none
 
 <br />
 
+## Author
+
+Andaleeb Farooq: [:octocat:](https://github.com/cerafinn)
+
+<br />
+
 ## Questions
 
-If you have any questions or issues, feel free to reach out through andaleeb.farooq@gmail.com.
-You can also find more of my work on Github at [github link](https://github.com/cerafinn)
+If you have any questions or issues, feel free to reach out at: andaleeb.farooq@gmail.com.
+You can also find more of my work on Github at [github link](https://github.com/cerafinn).
