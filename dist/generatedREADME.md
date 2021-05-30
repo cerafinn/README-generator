@@ -1,7 +1,7 @@
-# Run Buddy
+# robot-gladiators
 
 ## Description
-Website that offers fitness training services
+A robot gladiator game created using Javascript that can be played in a browser console.
 
 
 
@@ -22,32 +22,31 @@ Table of Contents |
 
 In order to run the project locally, ensure that dependencies are installed by running:
 
-none
+na
 
 <br />
 
 ## Usage
 
-Website built with HTML and CSS. The application allows for users to view information about the fitness training services, reach out to set up consultation, view trainer profiles and well as contact information. The website is mobile responsive and allows for users to also view the privacy policy that is linked at the bottom of the page.
+The project is a JavaScript based game played within a browser console. The user is able to enter information into alert boxes and choose whether to fight or skip. After fighting, the user enters the shop and can choose to refill on health, upgrade attack or leave. After exiting the shop, as long as there are still enemy robots to fight, the user is given the option to fight or skip until all enemies have been defeated. After finishing the game, the user will be informed of their final score and be informed if they have beat the high score for the game or not.
 
 You can find the deployed link and the repository link below:
 
-Deployed Link: [Deployed Link](https://cerafinn.github.io/run-buddy)
+Deployed Link: [Deployed Link](https://cerafinn.github.io/robot-gladiators)
 
-Repo Link: [Repo Link](https://github.com/cerafinn/run-buddy)
+Repo Link: [Repo Link](https://github.com/cerafinn/robot-gladiators)
 
 <br />
 
 ## Technologies
 
-* HTML
-* CSS
+* JavaScript
 
 <br />
 
 ## Screenshots
 
-![IMG]()
+![IMG](./assets/images/robot-gladiators-screenshot.png)
 
 ## Contributing
 
@@ -59,7 +58,7 @@ If interested in contributing to the project, feel free to reach out. Contact in
 
 ## Tests
 
-none
+na
 
 <br />
 

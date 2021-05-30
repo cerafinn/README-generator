@@ -86,7 +86,7 @@ ${renderTechnologies(data.technologies)}
 
 ## Screenshots
 
-![IMG]()
+![IMG](./assets/images/${data.repoName}-screenshot.png)
 
 ## Contributing
 

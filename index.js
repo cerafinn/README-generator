@@ -4,6 +4,9 @@ const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+// should set up two inquirer paths, one for one author, another for multiple authors?
+// how would this look like?
+
 // array of questions for user input
 const questions = [
   {
