@@ -1,7 +1,7 @@
-# robot-gladiators
+# Portfolio Generator
 
 ## Description
-A robot gladiator game created using Javascript that can be played in a browser console.
+Node application that creates a portfolio based on user input.
 
 
 
@@ -22,31 +22,35 @@ Table of Contents |
 
 In order to run the project locally, ensure that dependencies are installed by running:
 
-na
+`npm i` or `npm install`
 
 <br />
 
 ## Usage
 
-The project is a JavaScript based game played within a browser console. The user is able to enter information into alert boxes and choose whether to fight or skip. After fighting, the user enters the shop and can choose to refill on health, upgrade attack or leave. After exiting the shop, as long as there are still enemy robots to fight, the user is given the option to fight or skip until all enemies have been defeated. After finishing the game, the user will be informed of their final score and be informed if they have beat the high score for the game or not.
+The Node application runs in the terminal. Users are required to enter either `node app` or `npm start` and the application begin running. The user will be prompted with questions. The prompts that require inputs have a validation option that prevent users from moving on without entering informaiton in the section. After entering the information, the Node application then generates an index.html in the dist folder.
 
 You can find the deployed link and the repository link below:
 
-Deployed Link: [Deployed Link](https://cerafinn.github.io/robot-gladiators)
+Deployed Link: [Deployed Link](https://cerafinn.github.io/portfolio-generator)
 
-Repo Link: [Repo Link](https://github.com/cerafinn/robot-gladiators)
+Repo Link: [Repo Link](https://github.com/cerafinn/portfolio-generator)
 
 <br />
 
 ## Technologies
 
+* HTML
+* CSS
 * JavaScript
+* Node
+* Inquirer
 
 <br />
 
 ## Screenshots
 
-![IMG](./assets/images/robot-gladiators-screenshot.png)
+![IMG](./assets/images/portfolio-generator-screenshot.png)
 
 ## Contributing
 
@@ -58,7 +62,7 @@ If interested in contributing to the project, feel free to reach out. Contact in
 
 ## Tests
 
-na
+
 
 <br />
 

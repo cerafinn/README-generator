@@ -43,6 +43,7 @@ Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
 * Inquirer
 * File System
 * Path
+* Markdown
 
 <br />
 
@@ -50,8 +51,7 @@ Repo Link: [Repo Link](https://github.com/cerafinn/README-generator)
 
 ![README](/assets/images/README.gif)
 
-Output example: <br />
-![README Output](/assets/images/README-generator.PNG)
+Output example: ![README Output](/assets/images/README-generator.PNG)
 
 <br />
 

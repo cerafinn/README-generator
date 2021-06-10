@@ -12,32 +12,80 @@ const questions = [
   {
     type: 'input',
     name: 'author',
-    message: 'Enter your full name: (Required)'
+    message: 'Enter your full name: (Required)',
+    validate: (authorInput) => {
+      if (authorInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'contactInfo',
-    message: 'Enter your contact email: (Required)'
+    message: 'Enter your contact email: (Required)',
+    validate: (contactInput) => {
+      if (contactInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'github',
-    message: 'Enter your GitHub Username (Required)'
+    message: 'Enter your GitHub Username (Required)',
+    validate: (githubInput) => {
+      if (githubInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'title',
     message: 'Enter your project name (Required)',
+    validate: (titleInput) => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'repoName',
-    message: 'Enter the repository name: (Required)'
+    message: 'Enter the repository name: (Required)',
+    validate: (repoInput) => {
+      if (repoInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Add a description for your project'
+    message: 'Add a description for your project',
+    validate: (descriptionInput) => {
+      if (descriptionInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'list',
@@ -49,11 +97,27 @@ const questions = [
     type: 'input',
     name: 'technologies',
     message: 'Enter technologies were used in the project (add all that apply):',
+    validate: (techInput) => {
+      if (techInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
     type: 'input',
     name: 'usage',
     message: 'What does a user need to know about the project?',
+    validate: (usageInput) => {
+      if (usageInput) {
+        return true;
+      } else {
+        console.log('Required entry');
+        return false;
+      }
+    }
   },
   {
       type: 'input',
