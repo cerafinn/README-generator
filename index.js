@@ -13,40 +13,19 @@ const questions = [
     type: 'input',
     name: 'author',
     message: 'Enter your full name: (Required)',
-    validate: (authorInput) => {
-      if (authorInput) {
-        return true;
-      } else {
-        console.log('Required entry');
-        return false;
-      }
-    }
+    default: 'Andaleeb Farooq'
   },
   {
     type: 'input',
     name: 'contactInfo',
     message: 'Enter your contact email: (Required)',
-    validate: (contactInput) => {
-      if (contactInput) {
-        return true;
-      } else {
-        console.log('Required entry');
-        return false;
-      }
-    }
+    default: 'andaleeb.farooq@gmail.com'
   },
   {
     type: 'input',
     name: 'github',
     message: 'Enter your GitHub Username (Required)',
-    validate: (githubInput) => {
-      if (githubInput) {
-        return true;
-      } else {
-        console.log('Required entry');
-        return false;
-      }
-    }
+    default: 'cerafinn'
   },
   {
     type: 'input',

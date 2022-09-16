@@ -35,6 +35,15 @@ function renderTechnologies(technologies) {
   }
 }
 
+function renderContributors(contributors, usernames) {
+  if (contributors !== "") {
+    var authorArray = contributors.split(', ')
+
+    return `* ${authorArray.map(i => i).join(`: [:octocat:]()
+* `)}`
+  }
+}
+
 // Generate markdown for README, which is created in the dist folder
 function generateMarkdown(data) {
   console.log(data);
@@ -88,6 +97,8 @@ ${renderTechnologies(data.technologies)}
 
 ![IMG](./assets/images/${data.repoName}-screenshot.png)
 
+<br />
+
 ## Contributing
 
 ${data.contribute}
@@ -104,7 +115,7 @@ ${data.test}
 
 ## Author
 
-${data.author}: [:octocat:](https://github.com/${data.github})
+${renderContributors(data.author)}: [:octocat:](https://github.com/${data.github})
 
 <br />
 
